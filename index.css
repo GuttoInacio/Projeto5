@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+}
+
+body {
+    background-image: url("./assets/img/fundo.png");
+    height: 100vh;
+    width: 100vw;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 800px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo1 {
+    font-size: 35px;
+    color: coral;
+    margin-top: 70px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.514);
+
+}
+
+.hamburguer {
+    display: flex;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 35px;
+}
+
+.catalogo {
+    height: 60px;
+    width: 120px;
+
+}
+
+.buttonCatalogo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.catalogo {
+    border-radius: 12px;
+    width: 89px;
+    background-color: rgba(248, 198, 71, 0.397);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+}
+
+.containerLogo {
+    display: flex;
+}
+
+.fotoConteudo {
+    margin-top: 25px;
+    width: 350px;
+    height: 260px;
+    border-radius: 20px;
+    box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.808);
+    margin-top: 35px;
+}
+
+.fotoConteudo1 {
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+
+
+.container2 {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textoFoto1 {
+    height: 450px;
+    width: 900px;
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+}
+
+.texto1 {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    padding-left: 15px;
+    margin-top: 80px;
+}
